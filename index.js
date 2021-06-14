@@ -37,6 +37,6 @@ esportes = [
 
 var settings = readJson() // le as credenciais
 
-for (var i = 0; i < esporte.length; i++){ //insere todos os dados do vetor de esportes
+for (var i = 0; i < esportes.length; i++){        //insere todos os dados do vetor de esportes
   inserir(esportes[i], settings[0], settings[1]);
 }
